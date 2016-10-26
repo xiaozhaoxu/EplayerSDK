@@ -46,8 +46,6 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
-def dbflow_version = "3.1.1"
-def ijkplayer_version = "1.2.1"
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -70,7 +68,7 @@ dependencies {
     compile 'com.google.protobuf:protobuf-java:2.5.0'
     compile 'com.jcraft:jzlib:1.1.3'
 //    compile 'com.github.goodjok.ffplayer:ijkplayer-view:1.2.0'
-    compile("com.github.goodjok.ffplayer:ijkplayer-view:${ijkplayer_version}") {
+    compile("com.github.goodjok.ffplayer:ijkplayer-view:1.2.1") {
         exclude module: 'support-v4', group: 'com.android.support'
         exclude module: 'support-annotations', group: 'com.android.support'
     }
@@ -79,13 +77,13 @@ dependencies {
 //        exclude module: 'support-annotations', group: 'com.android.support'
 //    }
     //数据库框架
-    compile "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
-    compile ("com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"){
+    compile "com.github.Raizlabs.DBFlow:dbflow-core:3.1.1"
+    compile ("com.github.Raizlabs.DBFlow:dbflow:3.1.1"){
         exclude module: 'support-annotations', group: 'com.android.support'
         exclude module: 'dbflow-core', group: 'com.github.Raizlabs.DBFlow'
     }
 
-    apt "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+    apt "com.github.Raizlabs.DBFlow:dbflow-processor:3.1.1"
 }
 
 //apply from: new File(rootProject.projectDir, "tools/gradle-mvn-push.gradle");
