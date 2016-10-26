@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_50"
+                android:background="@drawable/top_title_bg"
+                android:id="@+id/li_top_title_all">
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/li_back">
+
+        <View
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:background="@drawable/commont_title_back"
+                android:layout_marginLeft="@dimen/common_toptitle_space"
+                android:layout_marginRight="@dimen/common_toptitle_space"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/li_back"
+            android:orientation="horizontal"
+            android:id="@+id/li_teacher_info">
+
+        <LinearLayout
+                android:layout_width="@dimen/common_toptitle_icon_width"
+                android:layout_height="@dimen/common_toptitle_icon_width"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/teacher_icon_default_sdk">
+
+            <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/img_teacher_icon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/common_toptitle_space"
+                android:layout_marginRight="@dimen/common_toptitle_space">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title2_textsize"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_teacher_name"
+                    android:singleLine="true"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title4_textsize"
+                    android:textColor="#b9bbb9"
+                    android:id="@+id/tv_online_num"
+                    android:text="@string/online_num"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title4_textsize"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_top_praise_num"
+                    android:drawableLeft="@drawable/audio_praise_num"
+                    android:drawablePadding="@dimen/height_5"
+                    android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true">
+
+        <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/top_change_camera"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="@dimen/common_toptitle_space"
+                android:layout_marginRight="@dimen/common_toptitle_half_space"
+                android:id="@+id/img_change_camera"/>
+
+        <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/top_pause"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="@dimen/common_toptitle_half_space"
+                android:layout_marginRight="@dimen/common_toptitle_half_space"
+                android:id="@+id/img_pause"/>
+
+        <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/top_close"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="@dimen/common_toptitle_half_space"
+                android:layout_marginRight="@dimen/common_toptitle_space"
+                android:id="@+id/img_close"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+
+apply plugin: 'maven'
+
+version = '3.0.0'
+
+group='com.soooner.eplayer'
+uploadArchives {
+    repositories {
+        ivy {
+            url "../myRepo"
+        }
+    }
+}

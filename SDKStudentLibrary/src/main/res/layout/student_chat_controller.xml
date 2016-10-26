@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44"
+        android:background="@drawable/common_title_drawable"
+        android:orientation="horizontal"
+        android:id="@+id/li_chat_all">
+
+        <ImageView
+            android:layout_width="@dimen/height_43"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/audio_chat_face_icon"
+            android:id="@+id/iv_input"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_33"
+            android:layout_weight="1"
+            style="@style/chat_edit_style"
+            android:background="@drawable/audio_chat_input_bg"
+            android:paddingLeft="@dimen/common_toptitle_space"
+            android:paddingRight="@dimen/common_toptitle_space"
+            android:id="@+id/et_bottom_speak"/>
+
+
+        <ImageView
+            android:layout_width="@dimen/height_35"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/audio_chat_add"
+            android:id="@+id/iv_add"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="27dp"
+            android:background="@drawable/chat_input_view_bg"
+            android:layout_marginLeft="@dimen/adapter_livelist_item_margin_left"
+            android:layout_marginRight="@dimen/adapter_livelist_item_margin_left"
+            android:textSize="@dimen/title3_textsize"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="发送"
+            android:id="@+id/tv_send"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+    <!--表情-->
+    <com.ibrightech.eplayer.sdk.teacher.ui.FaceChatView
+        android:id="@+id/face_chat_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+  <com.ibrightech.eplayer.sdk.student.widget.ChatAddControllerView
+      android:id="@+id/layout_add"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="gone"/>
+</LinearLayout>

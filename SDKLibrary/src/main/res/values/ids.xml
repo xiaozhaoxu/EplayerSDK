@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="scrollview"/>
+
+    <item name="cb_item_tag" type="id"></item>
+    <item type="id" name="gridview" />
+    <item type="id" name="webview" />
+
+
+</resources>

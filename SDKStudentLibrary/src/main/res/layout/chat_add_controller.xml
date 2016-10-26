@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_title_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/height_10"
+    android:paddingRight="@dimen/height_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_90"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_praise"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/audio_text_style"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/student_praise_icon"
+                android:text="@string/praise" />
+
+            <View
+                style="@style/chat_add_view_style"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_question"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/audio_text_style"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/student_question_icon"
+                android:text="@string/question" />
+
+            <View
+                style="@style/chat_add_view_style"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_hand_up"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/audio_text_style"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/student_hand_icon"
+                android:text="@string/hand_up" />
+
+            <View
+                style="@style/chat_add_view_style"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_sign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/audio_text_style"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/student_sign_icon"
+                android:text="@string/sign" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/common_toptitle_space"
+        android:layout_marginRight="@dimen/common_toptitle_space"
+        android:background="@color/common_light_text_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_90"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/height_10"
+        android:paddingRight="@dimen/height_10">
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/layout_interactive_quzi"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<TextView-->
+                <!--style="@style/audio_text_style"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:drawableTop="@drawable/student_interactive_quiz"-->
+                <!--android:text="@string/interactive_quzi" />-->
+
+            <!--<View-->
+                <!--style="@style/chat_add_view_style"-->
+                <!--android:layout_alignParentRight="true" />-->
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/layout_whole_gag"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_audio_whole_gag"
+                style="@style/audio_text_style"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/student_hint_chat_icon"
+                android:text="@string/hint_chat" />
+
+            <View
+                style="@style/chat_add_view_style"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

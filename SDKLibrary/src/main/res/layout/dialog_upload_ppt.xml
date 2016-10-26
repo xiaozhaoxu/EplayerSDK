@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:id="@+id/li_all"
+>
+    <LinearLayout android:layout_width="280dp"
+                  android:layout_height="203dp"
+                  android:orientation="vertical">
+        <com.source.widget.RoundCornerProgressBar.RoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="#ff00ff"
+                app:rcBackgroundPadding="2dp"
+                app:rcBackgroundRadius="18dp"
+                app:rcTextProgress="100"
+                app:rcMax="100"
+                app:rcProgress="100"
+                app:rcProgressColor="#00ff00"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

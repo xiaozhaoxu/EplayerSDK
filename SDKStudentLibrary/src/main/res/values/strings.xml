@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SDKStudentLibrary</string>
+
+    <string name="no_push">暂无音视频推送</string>
+    <string name="praise">点赞</string>
+    <string name="question">提问</string>
+    <string name="sign">签到</string>
+    <string name="hand_up">举手</string>
+    <string name="hint_chat">隐藏聊天</string>
+    <string name="show_chat">显示聊天</string>
+
+
+    <string name="music_play">正在播放音乐</string>
+    <string name="music_pause">暂停播放音乐</string>
+    <string name="playback_info_isempty">回看内容为空</string>
+</resources>

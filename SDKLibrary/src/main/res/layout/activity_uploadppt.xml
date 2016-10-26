@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ptr="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/page_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="200dp"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/iv_course_icon"
+                android:layout_width="@dimen/height_50"
+                android:layout_height="@dimen/height_50"
+                android:src="@drawable/ppt"
+                android:layout_centerVertical="true"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/title3_textsize"
+                  android:layout_marginTop="28dp"
+                  android:id="@+id/tv_ppt_name"
+                  android:textColor="@color/black"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/title4_textsize"
+                  android:layout_marginTop="2dp"
+                  android:id="@+id/tv_ppt_size"
+                  android:textColor="@color/course_desc_text_color"/>
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:background="@color/common_title_view_bg"/>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#f2f2f2">
+        <com.ibrightech.eplayer.sdk.teacher.ui.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/pull_refresh_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:scrollbars="none"
+                ptr:ptrDrawable="@drawable/default_ptr_flip"
+                ptr:ptrAnimationStyle="flip"
+                ptr:ptrHeaderTextColor="@color/black"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"/>
+
+
+        <LinearLayout
+                android:id="@+id/empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/height_120"
+                android:visibility="gone">
+
+            <ImageView
+                    android:layout_width="@dimen/height_65"
+                    android:layout_height="@dimen/height_58"
+                    android:src="@drawable/no_course_icon"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/default_textsize"
+                    android:textColor="@color/course_empty_text_color"
+                    android:text="@string/empty_course_text"
+                    android:layout_marginTop="@dimen/height_18"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:background="@color/common_title_view_bg"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="44dp"
+                  android:gravity="center">
+        <TextView
+                android:layout_width="136dp"
+                android:layout_height="36dp"
+                android:background="@drawable/adapter_livelist_item_bt_bg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title3_textsize"
+                android:gravity="center"
+                android:text="@string/uploadppt_up_text"
+                android:id="@+id/tv_next"
+                android:layout_centerVertical="true"/>
+    </LinearLayout>
+
+
+</LinearLayout>

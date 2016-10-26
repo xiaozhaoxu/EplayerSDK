@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_item_all">
+
+    <RelativeLayout
+        android:id="@+id/layout_audio_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/height_10"
+        android:layout_marginRight="@dimen/height_10"
+        android:layout_marginTop="@dimen/common_toptitle_space">
+
+        <ImageView
+            android:id="@+id/iv_middle_chat_picture"
+            android:layout_width="@dimen/height_40"
+            android:layout_height="@dimen/height_40"
+            android:layout_marginRight="@dimen/height_10" />
+
+        <TextView
+            android:id="@+id/tv_middle_chat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/height_5"
+            android:layout_toRightOf="@id/iv_middle_chat_picture"
+            android:paddingLeft="8dp"
+            android:text="系统消息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title4_textsize"
+           />
+
+        <TextView
+            android:id="@+id/tv_middle_chat_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_middle_chat_name"
+            android:layout_toRightOf="@id/iv_middle_chat_picture"
+            android:gravity="center_vertical"
+            android:padding="@dimen/height_8"
+            android:textColor="@color/common_system_text_color"
+            android:textSize="@dimen/title2_textsize"
+            android:background="@drawable/chat_item_content_bg2"
+            />
+
+        <ImageView
+            android:id="@+id/img_middle_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_middle_chat_name"
+            android:layout_toRightOf="@id/iv_middle_chat_picture"
+            android:padding="@dimen/height_8"
+            android:background="@drawable/chat_item_content_bg2"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_audio_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/height_10"
+        android:layout_marginRight="@dimen/height_48"
+        android:layout_marginTop="@dimen/common_toptitle_space">
+
+        <ImageView
+            android:id="@+id/iv_left_chat_picture"
+            android:layout_width="@dimen/height_40"
+            android:layout_height="@dimen/height_40"
+            android:layout_marginRight="@dimen/height_10" />
+
+        <TextView
+            android:id="@+id/tv_left_chat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/height_5"
+            android:layout_toRightOf="@id/iv_left_chat_picture"
+            android:paddingLeft="8dp"
+            android:textColor="@color/common_light_text_color"
+            android:textSize="@dimen/title4_textsize" />
+
+        <TextView
+            android:id="@+id/tv_left_chat_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_left_chat_name"
+            android:layout_toRightOf="@id/iv_left_chat_picture"
+            android:background="@drawable/audio_chat_left_bg"
+            android:gravity="center_vertical"
+
+            android:paddingBottom="@dimen/height_8"
+            android:paddingLeft="20dp"
+            android:paddingRight="@dimen/height_12"
+            android:paddingTop="@dimen/height_8"
+            android:textColor="@color/common_dark_text_color"
+            android:textSize="@dimen/title2_textsize" />
+
+        <ImageView
+            android:id="@+id/img_left_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_left_chat_name"
+            android:layout_toRightOf="@id/iv_left_chat_picture"
+            android:background="@drawable/audio_chat_left_bg"
+            android:paddingBottom="@dimen/height_8"
+            android:paddingLeft="20dp"
+            android:paddingRight="@dimen/height_12"
+            android:paddingTop="@dimen/height_8"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_audio_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/height_10"
+        android:layout_marginTop="@dimen/common_toptitle_space">
+
+        <ImageView
+            android:id="@+id/iv_right_chat_picture"
+            android:layout_width="@dimen/height_40"
+            android:layout_height="@dimen/height_40"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_right_chat_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_48"
+            android:layout_marginRight="@dimen/height_10"
+            android:layout_toLeftOf="@id/iv_right_chat_picture"
+            android:background="@drawable/audio_chat_right_bg_2"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/height_8"
+            android:paddingLeft="@dimen/height_12"
+            android:paddingRight="20dp"
+            android:paddingTop="@dimen/height_8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title3_textsize" />
+
+
+        <ImageView
+            android:id="@+id/img_right_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_48"
+            android:layout_marginRight="@dimen/height_10"
+            android:layout_toLeftOf="@id/iv_right_chat_picture"
+            android:background="@drawable/audio_chat_right_bg_2"
+            android:paddingBottom="@dimen/height_8"
+            android:paddingLeft="@dimen/height_12"
+            android:paddingRight="20dp"
+            android:paddingTop="@dimen/height_8"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

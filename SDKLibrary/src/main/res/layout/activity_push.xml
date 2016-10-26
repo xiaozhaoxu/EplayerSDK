@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/root_view">
+
+    <SurfaceView
+            android:id="@+id/cameraView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <com.ibrightech.eplayer.sdk.teacher.ui.LivePushAudioControllerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/livepushaudiocontrollerview"
+                    android:background="#f5f5f5"
+                    android:visibility="gone"
+                    />
+
+            <com.ibrightech.eplayer.sdk.teacher.ui.LivePushVideoControllerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/livepushvideocontrollerview"
+                    />
+
+            <include layout="@layout/common_toptitle"/>
+
+        </RelativeLayout>
+
+
+    <com.ibrightech.eplayer.sdk.teacher.ui.LivePushLiveStatusView
+            android:id="@+id/layout_widget_live_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+</RelativeLayout>

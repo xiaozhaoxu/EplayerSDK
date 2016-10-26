@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/common_bg">
+
+    <include layout="@layout/common_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        android:background="@drawable/common_title_drawable"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提问内容："
+            android:textSize="@dimen/title3_textsize"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|top"
+            android:hint="请输入提问内容，100字内"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="10dp"
+            android:textColorHint="@color/act_course_hint"
+            android:textColor="#6c6868"
+            android:textSize="@dimen/title4_textsize"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_num_restrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="end"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:text="0/100"
+        android:textColor="@color/act_course_hint"
+        android:textSize="@dimen/default_textsize" />
+
+    <com.ibrightech.eplayer.sdk.teacher.ui.RippleView
+        xmlns:ripple="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rippleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ripple:rv_type="rectangle"
+        ripple:rv_centered="true"
+        android:padding="0dp"
+        ripple:rv_zoom="true"
+        android:layout_marginTop="15dp">
+        <Button
+            style="@style/login_bt_style"
+            android:layout_width="match_parent"
+            android:background="@drawable/sdk_login_bt_bg"
+            android:text="发送"/>
+    </com.ibrightech.eplayer.sdk.teacher.ui.RippleView>
+
+
+</LinearLayout>

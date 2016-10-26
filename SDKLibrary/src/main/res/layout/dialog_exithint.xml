@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:id="@+id/li_all"
+>
+    <LinearLayout android:layout_width="280dp"
+                  android:layout_height="203dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="36dp"
+                  android:gravity="center"
+                  android:text="提示"
+                  android:textSize="@dimen/title1_textsize"
+                  android:textColor="@color/white"
+                  android:background="@drawable/dialog_exithint_title_bg"
+
+        />
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:background="@drawable/dialog_exithint_content_bg">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:orientation="vertical"
+                          android:gravity="center">
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:textSize="@dimen/size_20"
+                          android:textColor="@color/common_bt_bg"
+                          android:id="@+id/tv_title"
+                />
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="18dp"
+                          android:gravity="center"
+                          android:textSize="@dimen/title2_textsize"
+                          android:textColor="#434343"
+                          android:id="@+id/tv_desc"
+                />
+
+            </LinearLayout>
+            <View
+                    style="@style/line_horizontal_style"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="43dp"
+                          android:orientation="horizontal"
+                          android:gravity="center_vertical">
+
+                <Button android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:text="确定"
+                          android:textSize="@dimen/title1_textsize"
+                          android:textColor="@color/common_bt_bg"
+                          android:background="@drawable/dialog_exithint_bottom_left_bt_bg"
+                          android:id="@+id/bt_ok"
+
+                />
+                <View
+                        style="@style/line_vertical_style"/>
+                <Button android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:text="取消"
+                          android:textSize="@dimen/title1_textsize"
+                          android:textColor="@color/dialog_cancel_color"
+                          android:background="@drawable/dialog_exithint_bottom_right_bt_bg"
+                          android:id="@+id/bt_cancel"
+
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+
+    <dimen name="toptitle_textsize">19sp</dimen>
+    <dimen name="title1_textsize">17sp</dimen>
+    <dimen name="title2_textsize">15sp</dimen>
+    <dimen name="title3_textsize">13sp</dimen>
+    <dimen name="title4_textsize">11sp</dimen>
+    <dimen name="default_textsize">14sp</dimen>
+
+
+
+    <dimen name="adapter_livelist_item_margin_left">10dp</dimen>
+
+    <dimen name="listview_margin_left">7dp</dimen>
+
+    <dimen name="dialog_exithint_radius">5dp</dimen>
+
+    <dimen name="common_toptitle_space">15dp</dimen>
+    <dimen name="common_toptitle_half_space">7.5dp</dimen>
+    <dimen name="common_toptitle_icon_width">32dp</dimen>
+
+    <dimen name="login_logo_height">10.5dp</dimen>
+    <dimen name="height_158">158dp</dimen>
+    <dimen name="height_81">81dp</dimen>
+    <dimen name="height_21">21dp</dimen>
+    <dimen name="height_135">135dp</dimen>
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_83">83dp</dimen>
+    <dimen name="height_25">25dp</dimen>
+    <dimen name="height_28">28dp</dimen>
+    <dimen name="height_14">14dp</dimen>
+    <dimen name="height_16">16dp</dimen>
+    <dimen name="height_106">106dp</dimen>
+    <dimen name="height_47">47dp</dimen>
+    <dimen name="height_35">35dp</dimen>
+    <dimen name="height_55">55dp</dimen>
+    <dimen name="height_45">45dp</dimen>
+    <dimen name="height_64">64dp</dimen>
+    <dimen name="height_18">18dp</dimen>
+    <dimen name="height_10">10dp</dimen>
+    <dimen name="height_48">48dp</dimen>
+    <dimen name="height_8">8dp</dimen>
+    <dimen name="height_12">12dp</dimen>
+    <dimen name="height_58">58dp</dimen>
+    <dimen name="height_75">75dp</dimen>
+    <dimen name="height_6">6dp</dimen>
+    <dimen name="height_5">5dp</dimen>
+    <dimen name="height_102">102dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_120">120dp</dimen>
+    <dimen name="height_65">65dp</dimen>
+    <dimen name="height_43">43dp</dimen>
+    <dimen name="height_23">23dp</dimen>
+    <dimen name="height_33">33dp</dimen>
+    <dimen name="height_44">44dp</dimen>
+    <dimen name="height_96">96dp</dimen>
+    <dimen name="height_27">27dp</dimen>
+    <dimen name="height_70">70dp</dimen>
+    <dimen name="height_32">32dp</dimen>
+    <dimen name="height_22">22dp</dimen>
+    <dimen name="height_31">31dp</dimen>
+    <dimen name="height_39">39dp</dimen>
+
+
+
+    <dimen name="size_20">20sp</dimen>
+    <dimen name="size_35">35.7sp</dimen>
+    <dimen name="size_8">8sp</dimen>
+
+    <dimen name="list_item_image_height">220dp</dimen>
+    <dimen name="chat_size_with_hight">35dp</dimen>
+
+    <dimen name="ppt_margin_left">15dp</dimen>
+
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+
+    <dimen name="top_view_width">115dp</dimen>
+    <dimen name="top_view_height">65dp</dimen>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/seek_space_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title3_textsize"
+        android:layout_marginLeft="@dimen/seekbar_space"
+        android:layout_marginRight="@dimen/seekbar_space"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:id="@+id/tv_current_time"
+        />
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:background="@drawable/bt_play"
+        android:id="@+id/view_play"
+        />
+    <com.ibrightech.eplayer.sdk.student.widget.MySeekbar
+        android:id="@+id/seekbar"
+        style="@style/MediaController_SeekBar"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:max="20"
+        android:progress="0"
+        android:layout_marginLeft="@dimen/seekbar_space"
+        android:layout_marginRight="@dimen/seekbar_space"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title3_textsize"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:id="@+id/tv_all_time"
+
+        />
+    <View
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:padding="3dp"
+        android:background="@drawable/playback_method_ver"
+        android:layout_marginLeft="@dimen/seekbar_space"
+        android:layout_marginRight="@dimen/seekbar_space"
+        android:id="@+id/view_chagescreen"
+        />
+</LinearLayout>

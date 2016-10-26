@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_ppt_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.ibrightech.eplayer.sdk.widget.DrawPadControllerView
+                android:id="@+id/ppt_controller_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/layout_ppt_bg_color"
+                android:clickable="true"
+                />
+
+            <com.ibrightech.eplayer.sdk.student.widget.LiveVideoView
+                android:id="@+id/livevideoview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <com.ibrightech.eplayer.sdk.student.widget.PlayerControllerView
+        android:id="@+id/playercontrollerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

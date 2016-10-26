@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_dialog_bg2">#80000000</color>
+
+
+    <color name="title">#FFC24F05</color>
+    <color name="text">#FF3A3A3A</color>
+    <color name="white">#ffffff</color>
+    <color name="dark">#FF292929</color>
+    <color name="desc">#FF454545</color>
+    <color name="article">#FFE5E5E5</color>
+    <color name="gray">#FF505050</color>
+    <color name="red">#ffff0033</color>
+    <color name="login_background">#EFEFEF</color>
+    <color name="login_text">#8d9389</color>
+    <color name="pad_detail_text">#8b93a3</color>
+    <color name="half_round">#FFA6A8A9</color>
+    <color name="pad_rec_text">#9ca4b7</color>
+    <color name="pad_main_layout_back">#AA000000</color>
+    <color name="history_splitter">#00262626</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="black">#000000</color>
+
+    <color name="transparent_gray">#6e232526</color>
+    <color name="transparent_red">#6eff0033</color>
+    <color name="transparent_white">#6eFFFFFF</color>
+    <color name="transparent_black">#a0000000</color>
+    <color name="transparent_small_black">#991e0302</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="common_bg">#f2f2f2</color>
+    <color name="common_title_bg">#fdfdfd</color>
+    <color name="common_title_view_bg">#dddddd</color>
+
+
+
+
+    <color name="page_bg_color">#f7f8fc</color>
+
+    <color name="layout_ppt_bg_color">#3c6351</color>
+
+
+
+    <color name="couse_title_color">#515151</color>
+    <color name="couse_over_color">#d9d8d8</color>
+    <color name="teacher_name_text_color">#1d1d26</color>
+    <color name="course_item_view_bg">#e9eaed</color>
+    <color name="course_desc_text_color">#9b9b9b</color>
+    <color name="course_name_not_start_color">#323232</color>
+    <color name="course_empty_text_color">#afafaf</color>
+
+    <color name="login_layout_bg">#aabf5f5c</color>
+    <color name="login_hint_text_color">#bbbbbb</color>
+
+    <color name="common_bt_bg">#e9544f</color>
+
+    <color name="top_title_bg">#e77470</color>
+    <color name="space_line_color">#e2e2e2</color>
+
+    <color name="dialog_cancel_color">#9d9d9d</color>
+
+    <color name="widget_live_status_bg">#55000000</color>
+    <color name="widget_live_status_button_bg">#33000000</color>
+
+    <color name="input_chat_color">#cbcbcb</color>
+    <color name="chat_audio_name_text_color">#464646</color>
+    <color name="chat_audio_content_text_color">#bcbcbc</color>
+
+    <color name="page_default_bg_color">#f5f5f5</color>
+
+    <color name="common_system_text_color">#E9534E</color>
+    <color name="common_teacher_text_color">#3181B2</color>
+    <color name="common_assist_text_color">#FF8000</color>
+
+    <color name="common_dark_text_color">#333333</color>
+    <color name="common_light_text_color">#cccccc</color>
+    <color name="delete_bg">#ec5446</color>
+    <color name="list_view_divider_bg">#e4e4e4</color>
+    <color name="audio_chat_view_bg">#303030</color>
+    <color name="login_et_view_bg">#dfdfdf</color>
+</resources>

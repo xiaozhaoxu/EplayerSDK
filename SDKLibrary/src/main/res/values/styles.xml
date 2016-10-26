@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="sdk_dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="sdk_dialog_untran" parent="sdk_dialog_tran">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="line_horizontal_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/space_line_color</item>
+    </style>
+
+    <style name="line_vertical_style">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/space_line_color</item>
+
+    </style>
+
+    <style name="chat_edit_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/title3_textsize</item>
+        <item name="android:textColor">@color/common_dark_text_color</item>
+        <item name="android:hint">@string/chat_input_hint</item>
+        <item name="android:textColorHint">@color/input_chat_color</item>
+    </style>
+
+    <style name="audio_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/common_dark_text_color</item>
+        <item name="android:textSize">@dimen/default_textsize</item>
+        <item name="android:drawablePadding">@dimen/height_10</item>
+    </style>
+
+    <style name="audio_view_style">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/height_23</item>
+        <item name="android:background">@color/common_light_text_color</item>
+    </style>
+
+    <style name="login_bt_style" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textSize">@dimen/title1_textsize</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

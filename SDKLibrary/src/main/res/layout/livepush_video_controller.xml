@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.ibrightech.eplayer.sdk.teacher.ui.ChatControllerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/video_chat_view"
+            android:layout_alignParentBottom="true"/>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="215dp"
+            android:layout_above="@id/video_chat_view"
+            android:gravity="bottom">
+
+        <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listview"
+                android:divider="@color/transparent"
+                android:dividerHeight="5dp"
+                android:fadingEdge="none"
+                android:cacheColorHint="#00000000"
+                android:listSelector="#00000000"
+                android:overScrollMode="never"
+                android:layout_marginBottom="@dimen/height_5"/>
+    </LinearLayout>
+
+</RelativeLayout>

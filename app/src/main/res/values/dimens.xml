@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="one_and_a_half_grid_unit">20dp</dimen>
+    <dimen name="spinner_left_padding">6.5dp</dimen>
+    <dimen name="spinner_image_with">10dp</dimen>
+    <dimen name="title_height">46dp</dimen>
+    <dimen name="page_left_riht_margin">10dp</dimen>
+
+    <dimen name="item_radius">5dp</dimen>
+    <dimen name="lit_item_height">35dp</dimen>
+    <dimen name="lit_footer_item_height">45dp</dimen>
+    <dimen name="dialog_delete_all_width">264dp</dimen>
+    <dimen name="dialog_bind_all_height">134dp</dimen>
+    <dimen name="dialog_delete_bt_height">44dp</dimen>
+
+    <dimen name="list_margin_height">20dp</dimen>
+
+</resources>

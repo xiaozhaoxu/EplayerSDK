@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ACTIVITY_ENTRY_NAME</string>
+
+    <string name="online_num">%1$d人在线</string>
+    <string name="back">返回</string>
+    <string name="title_cancel">取消</string>
+    <string name="select_course_ware">选择课件</string>
+    <string name="change_course_ware">切换课件</string>
+    <string name="chat">聊天已开启</string>
+    <string name="interactive_quzi">互动问答</string>
+    <string name="whole_gag">聊天已关闭</string>
+    <string name="upload_course_ware">上传课件</string>
+    <string name="audio_playing">正在音频直播</string>
+
+    <string name="help_upload">如何上传课件</string>
+    <string name="help_upload_title">帮助</string>
+
+    <string name="name_and_status">%1$s    %2$s</string>
+
+    <string name="voice_change_to_video">切换成视频</string>
+    <string name="video_change_to_voice">转换为语音</string>
+
+    <string name="chat_input_hint">说点什么吧...</string>
+    <string name="chat_video_name">%1$s：</string>
+
+    <string name="live_push_back_dialog_title">返回课程列表</string>
+    <string name="live_push_back_dialog_desc">本场直播状态将自动暂停</string>
+    <string name="live_push_close_dialog_title">下课结束</string>
+    <string name="live_push_close_dialog_desc">将关闭本场直播，不可以再次进入</string>
+    <string name="force_logout">您的账号已在其他地方登录</string>
+    <string name="net_work_remand">您不在wifi环境下是否要继续</string>
+
+    <string name="empty_course_text">当日无直播课程</string>
+    <string name="uploadppt_up_text">上传</string>
+
+
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+</resources>

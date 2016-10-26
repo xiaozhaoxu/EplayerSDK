@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_85">85dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_90">90dp</dimen>
+
+
+    <dimen name="view_space">10dp</dimen>
+
+    <dimen name="phone_seekbar_left_padding">11px</dimen>
+    <dimen name="pad_seekbar_left_padding">20px</dimen>
+    <dimen name="seekbar_space">18dp</dimen>
+
+</resources>

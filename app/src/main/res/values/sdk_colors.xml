@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="my_transparent">#00FFFFFF</color>
+    <color name="spinner_bg_color">#ffee00</color>
+    <color name="page_top_bg_color">#ff4404</color>
+</resources>

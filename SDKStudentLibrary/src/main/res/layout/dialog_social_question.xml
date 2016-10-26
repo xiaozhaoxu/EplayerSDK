@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/li_all"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="互动问答"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title2_textsize" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_title_view_bg" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="请选择一个选项"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title3_textsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/view_space"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/bt1"
+                    style="@style/social_bt_style"
+                    android:text="A"
+                    android:tag="1"/>
+
+                <View
+                    android:id="@+id/view_space1"
+                    android:layout_width="@dimen/view_space"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/bt2"
+                    style="@style/social_bt_style"
+                    android:text="A" android:tag="2" />
+
+                <View
+                    android:id="@+id/view_space2"
+                    android:layout_width="@dimen/view_space"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/bt3"
+                    style="@style/social_bt_style"
+                    android:text="A"
+                    android:tag="3"/>
+
+                <View
+                    android:id="@+id/view_space3"
+                    android:layout_width="@dimen/view_space"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/bt4"
+                    style="@style/social_bt_style"
+                    android:text="A"
+                    android:tag="4"/>
+
+                <View
+                    android:layout_width="@dimen/view_space"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
